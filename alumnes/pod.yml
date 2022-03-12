@@ -5,8 +5,8 @@ metadata:
   name: redis
 spec:
   containers:
-  - name: redis
-    image: redis
+  - name: nginx
+    image: nginx
     volumeMounts:
       - name: redis-storage
         mountPath: /usr/share/nginx/html
